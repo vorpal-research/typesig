@@ -2,6 +2,13 @@
 
 ## A simple header-only library for producing runtime strings from compile-time types ##
 
+### Usage ###
+```Cpp
+#include "typesig.hpp"
+```
+
+Use `typesig::signature<T>()` or `typesig::signature(value)` to get a human-readable description of the type `T` or the type of value `value`.
+
 `Examples/usage.cpp` contains a number of examples for running the functions included in the library:
 
 ```Cpp
