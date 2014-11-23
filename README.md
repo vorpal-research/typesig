@@ -7,7 +7,7 @@
 #include "typesig.hpp"
 ```
 
-Use `typesig::signature<T>()` or `typesig::signature(value)` to get a human-readable description of the type `T` or the type of value `value`.
+Use `typesig::signature<T>()` or `typesig::signature(value)` to get a human-readable description of the type `T` or the type of value `value` (truncated to 255 symbols). The machinery used for most compilers is _not_ based on RTTI, but still _cannot_ be used as a reliable source of type information.
 
 `Examples/usage.cpp` contains a number of examples for running the functions included in the library:
 
