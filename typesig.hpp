@@ -26,12 +26,13 @@ namespace impl_{
 #define FFFUNC ""
 #endif
         enum{ maxlen = 255 };
-        static char ret[maxlen + 1];
+        static char ret[maxlen + 2];
         static bool done = false;
         if (!done) {
             ret[maxlen - 2] = '.';
             ret[maxlen - 1] = '.';
             ret[maxlen] = '.';
+            ret[maxlen + 1] = '\0';
             const char* begin = std::strstr(FFFUNC, beginner) + strlen(beginner);
             const char* end = std::strstr(begin, ender);
             // gcc is very unstable about delimiters =(
