@@ -1,3 +1,6 @@
+#ifndef TYPESIG_HPP
+#define TYPESIG_HPP
+
 #include <cstring>
 
 namespace typesig {
@@ -63,3 +66,5 @@ const char* signature(const T&) {
 }
 
 } // namespace typesig
+
+#endif // TYPESIG_HPP
