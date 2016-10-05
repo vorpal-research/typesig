@@ -63,3 +63,16 @@ unsigned long long
 char [6]
 std::_Bit_iterator
 ```
+### clang 3.8.1 ###
+```
+std::__cxx11::basic_string<char>
+std::vector<abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefg...
+unsigned long long
+signed char
+unsigned char
+char
+const volatile long long *const &
+unsigned long long
+char [6]
+std::_Bit_iterator
+```
