@@ -50,6 +50,19 @@ long long unsigned int
 char [6]
 std::_Bit_iterator
 ```
+### gcc 6.1 ###
+```
+std::__cxx11::basic_string<char>
+std::vector<abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefg...
+long long unsigned int
+signed char
+unsigned char
+char
+const volatile long long int* const&
+long long unsigned int
+char [6]
+std::_Bit_iterator
+```
 ### clang 3.1 ###
 ```
 std::basic_string<char>
